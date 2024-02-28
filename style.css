@@ -1,6 +1,19 @@
-.tag{
-    background-color: black;
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
 }
-.tago{
-    background-color: aquamarine;
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
 }
